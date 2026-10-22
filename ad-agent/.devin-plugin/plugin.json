@@ -14,7 +14,10 @@
   "logo": "assets/creatify-icon.jpeg",
   "mcpServers": {
     "creatify-ad-agent": {
-      "url": "https://api.creatify.ai/ad_agent/mcp"
+      "url": "https://api.creatify.ai/ad_agent/mcp",
+      "headers": {
+        "x-creatify-mcp-surface": "devin"
+      }
     }
   }
 }
